@@ -7,10 +7,6 @@ i.e which terraform</p>
 <p>#make the hook executable
 <em>chomd +x .git/hooks/*</em></p>
 
-<p>#commit from commandline</p>
- 
-
-git add .
- 
-
- git commit -m"try git commit hooks"
+<p>#commit from commandline <br/>
+ git add . </br>
+ git commit -m"try git commit hooks"</p> 
