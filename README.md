@@ -1,14 +1,13 @@
-#copy hooks/post-commit to .git/hooks/
+<p>#copy hooks/post-commit to .git/hooks/</p>
 
-#change the path for terraform in line #4
+<p>#change the path for terraform in line #4
 (you can get the executable path with the which command)
-i.e which terraform
+i.e which terraform</p>
 
-#make the hook executable
+<p>#make the hook executable
+<em>chomd +x .git/hooks/*</em></p>
 
-chomd +x .git/hooks/*
-
-#commit from commandline
+<p>#commit from commandline</p>
  
 
 git add .
