@@ -15,7 +15,7 @@ resource "docker_image" "httpd" {
 
 resource "docker_container" "httpd" {
   image = docker_image.httpd.latest
-  name  = "web docker container"
+  name  = "web container"
   ports {
     internal = 80
     external = var.external_port
