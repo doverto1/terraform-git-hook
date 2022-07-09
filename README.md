@@ -4,7 +4,7 @@
 (you can get the executable path with the which command)
 i.e which terraform</p>
 
-<p>#make the hook executable
+<p>#make the hook executable<br />
 <em>chomd +x .git/hooks/*</em></p>
 
 <p>#commit from commandline <br/>
